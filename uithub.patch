@@ -1,0 +1,6 @@
+{
+  "targetBranch": "feature/calculator-api",
+  "createPr": true,
+  "prTitle": "Add Calculator API with UI",
+  "prDescription": "Implements a calculator API with endpoints for basic arithmetic operations and a clean UI using Tailwind CSS"
+}

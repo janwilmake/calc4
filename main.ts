@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
-    // Serve static files
+    // Serve static HTML
     if (path === "/" || path === "/index.html") {
       return new Response(indexHtml, {
         headers: { "Content-Type": "text/html" },
